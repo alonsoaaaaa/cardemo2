@@ -1,6 +1,6 @@
 "use client";
 import NavBar from "@/app/components/nav-bar";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import {
   Select,
   SelectContent,
@@ -55,11 +55,13 @@ function CataloguePage() {
           step={1}
         />
       </div>
-      <div className="flex flex-wrap items-center justify-center">
-        {filteredCars.map((car) => {
-          return <VehicleCard key={car.image} {...car} />;
-        })}
-      </div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <div className="flex flex-wrap items-center justify-center">
+          {filteredCars.map((car) => {
+            return <VehicleCard key={car.image} {...car} />;
+          })}
+        </div>
+      </Suspense>
     </>
   );
 }
