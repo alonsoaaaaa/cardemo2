@@ -34,7 +34,7 @@ function VehicleCard({ model, price, image, features }: any) {
               ))}
             </div>
           )}
-          <a href="tel:9033998014" className="self-center">
+          <a href="tel:+17636898899" className="self-center">
             <Button
               variant="ghost"
               className="text-blue-400 underline underline-thickness-2 underline-offset-4 underline-transparent hover:text-blue-600 pt-0"

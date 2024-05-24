@@ -5,9 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chrome Reflections MotorCars",
-  description:
-    "Chrome Reflections MotorCars, the best classic cars in the market.",
+  title: "Allwayz Auto Sales",
+  description: "Allwayz Auto Sales: buy, sell and trade cars with us",
 };
 
 export default function RootLayout({

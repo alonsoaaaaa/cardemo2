@@ -5,16 +5,16 @@ import { Button } from "@/components/ui/button";
 
 function NavBar() {
   return (
-    <header className="flex flex-col px-5 pt-2 pb-2 w-full text-blue-200 bg-gray-800 shadow-sm">
+    <header className="flex flex-col px-5 pt-2 pb-2 w-full text-blue-200 bg-slate-500 shadow-sm">
       <div className="flex flex-col sm:flex-row justify-start gap-1 sm:gap-5 text-sm font-bold leading-4 max-md:flex-wrap">
         <div className="self-center">
           <Link href={"/"}>
             <Image
-              src="/chromecars-logo.jpg"
+              src="/allwayz-logo.jpg"
               alt="Logo"
               className="rounded-full"
-              width={150}
-              height={150}
+              width={100}
+              height={100}
             />
           </Link>
         </div>
@@ -48,7 +48,7 @@ function NavBar() {
         <div className="flex gap-0 self-center mt-4 text-xs sm:ml-auto leading-4 whitespace-nowrap">
           <Link
             href={
-              "https://www.google.com/maps/place/Chrome+Reflections+MotorCars/@32.5132856,-94.698515,15z/data=!4m12!1m5!8m4!1e2!2s117002377140721818380!3m1!1e1!3m5!1s0x863647173d08aef1:0x48a9b98573087737!8m2!3d32.5031203!4d-94.6752722!16s%2Fg%2F11h837p6th?entry=ttu"
+              "https://www.google.com/maps/place/Allwayz+Auto+Sales+Inc./@45.578469,-94.2073812,10z/data=!4m10!1m2!2m1!1sAllwayz+Auto+Sales!3m6!1s0x52b39d902c430503:0xea8d642eb693ccac!8m2!3d45.578469!4d-93.59764!15sChJBbGx3YXl6IEF1dG8gU2FsZXOSAQ91c2VkX2Nhcl9kZWFsZXLgAQA!16s%2Fg%2F11vshf1jdx?entry=ttu"
             }
             className="flex flex-col px-2 self-center"
           >
@@ -63,9 +63,7 @@ function NavBar() {
             <div className="mt-1.5 ">Adress</div>
           </Link>
           <Link
-            href={
-              "https://www.google.com/search?q=classic+certified+used+cars+longview+texas+usa&oq=Classic+Certified+Used+Cars+longview+texas&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDc2MTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&lqi=#lkt=LocalPoiReviews&lpg=cid:CgIgAQ%3D%3D,ik:CAoSLEFGMVFpcFB5YVdkNXRjUXdyQUZacTd0bWJSU0I5RTBWc3Jmdi1aN0FyZ1h0&rlimm=5235920024606635831"
-            }
+            href={"https://www.facebook.com/Allwayzautosales/"}
             className="flex flex-col px-2"
           >
             <Image
@@ -76,7 +74,7 @@ function NavBar() {
               height={30}
               className="self-center aspect-square"
             />
-            <div className="mt-1.5 ">Reviews</div>
+            <div className="mt-1.5 ">Facebook</div>
           </Link>
         </div>
       </div>

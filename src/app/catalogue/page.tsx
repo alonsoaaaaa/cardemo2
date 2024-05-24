@@ -37,10 +37,11 @@ function CataloguePage() {
               <SelectGroup defaultValue={"All"} className="bg-white">
                 <SelectLabel>Car Make</SelectLabel>
                 <SelectItem value="All">All</SelectItem>
-                <SelectItem value="Cadillac">Cadillac</SelectItem>
-                <SelectItem value="Chevrolet">Chevrolet</SelectItem>
                 <SelectItem value="Volkswagen">Volkswagen</SelectItem>
-                <SelectItem value="Plymouth">Plymouth</SelectItem>
+                <SelectItem value="Ford">Ford</SelectItem>
+                <SelectItem value="Nissan">Nissan</SelectItem>
+                <SelectItem value="Chevrolet">Chevrolet</SelectItem>
+                <SelectItem value="Cadillac">Cadillac</SelectItem>
                 <SelectItem value="Dodge">Dodge</SelectItem>
               </SelectGroup>
             </SelectContent>
