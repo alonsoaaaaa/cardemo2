@@ -56,7 +56,7 @@ function Home() {
                   />
                 }
                 title={
-                  <h3 className="mt-2 text-2xl font-extrabold text-yellow-400">
+                  <h3 className="mt-2 text-2xl font-extrabold text-yellow-400 text-center">
                     Certified cars
                   </h3>
                 }
@@ -71,7 +71,7 @@ function Home() {
                   />
                 }
                 title={
-                  <h3 className="mt-2 text-2xl font-extrabold text-pink-400">
+                  <h3 className="mt-2 text-2xl font-extrabold text-center text-pink-400">
                     Client oriented
                   </h3>
                 }
@@ -86,7 +86,7 @@ function Home() {
                   />
                 }
                 title={
-                  <h3 className="mt-2 text-2xl font-extrabold text-green-400">
+                  <h3 className="mt-2 text-2xl font-extrabold text-center text-green-400">
                     Save money
                   </h3>
                 }
