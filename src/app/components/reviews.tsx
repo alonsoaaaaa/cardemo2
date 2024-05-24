@@ -4,8 +4,7 @@ import React from "react";
 function Reviews() {
   return (
     <section className="flex flex-col items-center self-center relative z-20 gap-4 min-w-[90%] mt-8">
-      {/* <div className="flex flex-col gap-9 max-md:gap-7 items-center justify-center content-center"> */}
-      <h3 className="text-2xl font-bold pb-3">Our customer opinions:</h3>
+      <h3 className="text-2xl font-bold pb-3">Our Customers Opinions:</h3>
       <div className="flex justify-center">
         <Image
           src={"/review1.png"}
