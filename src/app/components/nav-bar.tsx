@@ -47,9 +47,7 @@ function NavBar() {
         </div>
         <div className="flex gap-0 self-center mt-4 text-xs sm:ml-auto leading-4 whitespace-nowrap">
           <Link
-            href={
-              "https://www.google.com/maps/place/Allwayz+Auto+Sales+Inc./@45.578469,-94.2073812,10z/data=!4m10!1m2!2m1!1sAllwayz+Auto+Sales!3m6!1s0x52b39d902c430503:0xea8d642eb693ccac!8m2!3d45.578469!4d-93.59764!15sChJBbGx3YXl6IEF1dG8gU2FsZXOSAQ91c2VkX2Nhcl9kZWFsZXLgAQA!16s%2Fg%2F11vshf1jdx?entry=ttu"
-            }
+            href={"https://maps.app.goo.gl/SUSF9YXo2bpZ1dRu7"}
             className="flex flex-col px-2 self-center"
           >
             <Image
@@ -63,7 +61,7 @@ function NavBar() {
             <div className="mt-1.5 ">Adress</div>
           </Link>
           <Link
-            href={"https://www.facebook.com/Allwayzautosales/"}
+            href={"https://www.facebook.com/AllAmericanAutoNampa/"}
             className="flex flex-col px-2"
           >
             <Image

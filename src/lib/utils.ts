@@ -22,7 +22,7 @@ export let data = [
   },
   {
     model: "Edge",
-    price: "32000",
+    price: "32,000",
     make: "Ford",
     image: "/auto3.jpg",
     features: ["SUV", "Crossover", "All-Wheel Drive"],

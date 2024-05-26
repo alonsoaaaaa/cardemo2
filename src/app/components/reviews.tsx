@@ -1,13 +1,17 @@
+import { UsersIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
 function Reviews() {
   return (
     <section className="flex flex-col items-center self-center relative z-20 gap-4 min-w-[90%] mt-8">
-      <h3 className="text-2xl font-bold pb-3">Our Customers Opinions:</h3>
+      <h3 className=" flex text-2xl font-bold pb-3 gap-2 text-teal-400">
+        Our Customers Opinions <UsersIcon />
+      </h3>
+
       <div className="flex justify-center">
         <Image
-          src={"/review1.png"}
+          src={"/review.png"}
           alt=""
           width={500}
           height={500}
