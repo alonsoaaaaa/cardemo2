@@ -1,4 +1,5 @@
-import * as React from "react";
+"use client";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import InfoBlock from "./components/info-block";
 import NavBar from "./components/nav-bar";
@@ -13,18 +14,40 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 function Home() {
+  let isSmall = useRef(true);
+  useEffect(() => {
+    if (window.innerWidth >= 674) {
+      isSmall.current = false;
+    }
+  }, []);
   return (
     <>
       <NavBar />
       <main className="flex flex-col justify-center items-center">
         <div className="flex relative flex-col items-start pt-20 w-full min-h-[1024px] max-md:max-w-full">
-          <Image
+          {/* <Image
             src="/background.jpg"
             alt=""
             objectFit="cover"
             layout="fill"
             className="absolute inset-0 size-full w-full h-full"
-          />
+          /> */}
+          <video
+            autoPlay
+            muted
+            loop
+            className="absolute top-0 left-0 w-full h-full object-cover"
+          >
+            <source
+              src={
+                isSmall.current
+                  ? "/background-mobile.mp4"
+                  : "/background-mobile.mp4"
+              }
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
           <section className="flex flex-col px-14 py-10 mt-28 max-w-full text-white rounded-3xl backdrop-blur-0 max-md:backdrop-blur-sm w-[724px] max-md:px-5 max-md:mt-10">
             <h1 className="mt-6 text-6xl font-extrabold leading-[72px] max-md:max-w-full max-md:text-4xl max-md:leading-[50px]">
               <span className="text-yellow-600">

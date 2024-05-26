@@ -7,25 +7,25 @@ export function cn(...inputs: ClassValue[]) {
 
 export let data = [
   {
-    model: "Golf",
-    price: "15000",
-    make: "Volkswagen",
-    image: "/car1.jpg",
-    features: ["Hatchback", "Compact Car", "Front-Wheel Drive"],
+    model: "Forte",
+    price: "18000",
+    make: "Kia",
+    image: "/auto1.jpg",
+    features: ["Sedan", "Compact Car", "Front-Wheel Drive"],
+  },
+  {
+    model: "Mustang",
+    price: "35000",
+    make: "Ford",
+    image: "/auto2.jpg",
+    features: ["Coupe", "Sports Car", "Rear-Wheel Drive", "Neon Underglow"],
   },
   {
     model: "Edge",
-    price: "30000",
+    price: "32000",
     make: "Ford",
-    image: "/car2.jpg",
-    features: ["Crossover SUV", "All-Wheel Drive", "Spacious Interior"],
-  },
-  {
-    model: "Altima",
-    price: "25000",
-    make: "Nissan",
-    image: "/car3.jpg",
-    features: ["Midsize Sedan", "Fuel Efficient", "Front-Wheel Drive"],
+    image: "/auto3.jpg",
+    features: ["SUV", "Crossover", "All-Wheel Drive"],
   },
   {
     model: "Master Deluxe Coupe",

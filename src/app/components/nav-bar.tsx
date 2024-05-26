@@ -10,7 +10,7 @@ function NavBar() {
         <div className="self-center">
           <Link href={"/"}>
             <Image
-              src="/allwayz-logo.jpg"
+              src="/allamerica-logo.jpg"
               alt="Logo"
               className="rounded-full"
               width={100}
